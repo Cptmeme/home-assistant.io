@@ -381,7 +381,7 @@ You have a device that takes button presses as inputs (such as a Tuo Smart Butto
 
 ## TVs and video players
 
-Matter TVs, projectors, and other video players of the Basic Video Player device type appear in Home Assistant as a [media player](/integrations/media_player/). From the media player, you can:
+Matter TVs, projectors, and other video players of the Basic Video Player or Casting Video Player device type appear in Home Assistant as a [media player](/integrations/media_player/). From the media player, you can:
 
 - Turn the video player on and off
 - Play, pause, and stop what is playing
@@ -390,8 +390,6 @@ Matter TVs, projectors, and other video players of the Basic Video Player device
 - Switch between inputs, such as **HDMI 1** or **Live TV**
 
 Matter video players don't all offer the same controls. Home Assistant only shows the controls your video player supports.
-
-Video players of the Casting Video Player device type don't get a media player yet. They keep a **Power** switch to turn them on and off.
 
 ## Experiment with Matter using a ESP32 dev board
 
